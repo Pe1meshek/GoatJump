@@ -1,0 +1,65 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#main {
+    width: auto;
+    height: 100vh;
+    
+    background-image: url(https://i0.wp.com/wallpaperforu.com/wp-content/uploads/2020/01/sunset__2_by_ogarart_dcm0mgz2048x1152.jpg);
+    background-size: cover;
+}
+
+#goat {
+    background-image: url(https://cursor.style/p-930/gravity_falls/gompers_pointer.png);
+    /* 512x361 */
+    background-size: 100%;
+    
+    width: 5.1vw;  
+    height: 10vh;
+
+    position: absolute;
+    /*top: 71vh;
+    left: 20vh;*/
+    z-index: 3;
+}
+
+.ledge {
+    background-image: url(https://svgsilh.com/png-512/295152-e91e63.png);
+    /* 350x350 */
+    /*background-image: url(https://cdn.pixabay.com/photo/2014/03/24/17/08/volcano-295151_1280.png);*/
+    background-size: cover;
+    background-position: 50% 5%;
+
+    width: 5vw;  
+    height: 6.2vh;
+
+    position: absolute;
+    /*top: 80vh;
+    left: 20vh;*/
+    z-index: 1;
+
+    transform: rotate(180deg);
+}
+
+.scorePrint {
+    position: relative;
+    font: bold 4vh cursive;
+    z-index: 2;
+    text-align: right;
+}
+
+#row2 div {
+    font-size: 2.5vh
+}
+
+#btnStart {
+    width: 100px;
+    height: 100px;
+    top: 89vh;
+    left: 10.4vw;
+    border-radius: 50%;
+    font: 1.3vh cursive;
+    background-color:crimson;
+}
